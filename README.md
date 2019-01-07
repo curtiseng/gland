@@ -4,4 +4,4 @@
 
 #### design
 
-![architecture design](docs/image/architecture-design.png)
+![architecture design](docs/images/architecture-design.png)

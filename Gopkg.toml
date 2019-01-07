@@ -36,3 +36,11 @@
 [[constraint]]
   name = "google.golang.org/grpc"
   version = "^1.17.0"
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "0.0.3"
+
+[[constraint]]
+  name = "go.uber.org/zap"
+  version = "1.9.1"
