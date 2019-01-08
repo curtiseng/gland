@@ -18,7 +18,7 @@ func (hash hash) ID(node *core.Node) string {
 	return node.Id
 }
 
-func main() {
+func start() {
 	snapshotCache := cache.NewSnapshotCache(false, hash{}, nil)
 	server := xds.NewServer(snapshotCache, nil)
 	grpcServer := grpc.NewServer()
