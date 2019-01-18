@@ -83,6 +83,15 @@
   version = "v1.0.3"
 
 [[projects]]
+  branch = "master"
+  name = "go.etcd.io/etcd"
+  packages = [
+    "raft",
+    "raft/raftpb"
+  ]
+  revision = "fcc29894c2e929d07aac3ec22db1d9b6aab15422"
+
+[[projects]]
   name = "go.uber.org/atomic"
   packages = ["."]
   revision = "1ea20fb1cbb1cc08cbd0d913a96dead89aa18289"
@@ -195,6 +204,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6698840cc4b1e6937bfc9f80afcdd32065928c20e9795455a3dbcc42cab804f6"
+  inputs-digest = "b4f1db7090423bf335ebd111a5dad3c508012079eb29eca5d5957c29f171bc45"
   solver-name = "gps-cdcl"
   solver-version = 1
